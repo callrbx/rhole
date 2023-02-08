@@ -1,0 +1,4 @@
+[[blocklist]]
+name = "StevenBlack"
+url = "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts"
+update = "7 days"

@@ -1,0 +1,18 @@
+[package]
+name = "rhole"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+structopt = "*"
+sqlite = "*"
+env_logger = "*"
+snafu = "*"
+log = "*"
+serde = "*"
+serde_derive = "*"
+toml = "*"
+parse_duration = "*"
+reqwest = { version = "*", features = ["blocking", "json"] }
